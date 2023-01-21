@@ -1,0 +1,24 @@
+{
+  "name": "e-learning",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaltaWebDev/e-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaltaWebDev/e-learning/issues"
+  },
+  "homepage": "https://github.com/MaltaWebDev/e-learning#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
